@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <div class="search-wrapper">
+                <input type="text" placeholder="Digite o nome da cidade..." id="city-input">
+                <ul id="suggestions-list" class="suggestions"></ul>
+            </div>
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-box">
+            <div class="weather-info">
+                <h2 id="city">Digite uma cidade</h2>
+                <div class="weather-icon">
+                    <i class="wi wi-day-sunny"></i>
+                </div>
+                <p class="temperature" id="temperature">--°C</p>
+                <p class="description" id="description">--</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fas fa-water"></i>
+                    <div class="text">
+                        <span id="humidity">--%</span>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">-- km/h</span>
+                        <p>Vel. Vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
