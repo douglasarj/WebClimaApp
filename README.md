@@ -1,8 +1,8 @@
-# 🌦️ Weather App | Previsão do Tempo
+# 🌦️ BrasilClima | Previsão do Tempo
 
 <div align="center">
 
-![Weather App Preview](https://i.imgur.com/YOUR_IMAGE_ID.png)
+![Weather App Preview](./assets/img.png)
 
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![OpenWeather API](https://img.shields.io/badge/OpenWeather-API-orange.svg)](https://openweathermap.org/api)
